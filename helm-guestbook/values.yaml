@@ -24,7 +24,6 @@ ingress:
   hosts:
     - guestbook.qavps.com
   tls: []
-    - secretName: chart-example-tls
       hosts:
         - guestbook.qavps.com
 
